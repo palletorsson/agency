@@ -28,12 +28,20 @@ footer {
     background-color:  #FAFAFA;
 }
 
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: 10%;
+}
+
 .workspace {
     background-color: #FDFDFD;
     margin:5px;
     padding:5px;
     box-shadow: 0 0 0 1px #D1D1D1, 0 0 4px 1px #CCCCCC;
 }
+
 .boarder-right {
    -moz-box-shadow: inset -2px 0px #888;
     -webkit-box-shadow: inset -2px 0px #888;
@@ -98,8 +106,8 @@ footer {
     border: 0 none;
     background-color: white;
     box-shadow: 0 0 0 1px #D1D1D1, 0 0 4px 1px #CCCCCC;
-    margin: 1px4 1px 10px;
-    padding:40px 100px 50px 70px;
+    margin: 1px 1px 10px;
+    padding: 42px 10% 67px 10%;
     font-size: 18px;
 }
 
