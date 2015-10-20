@@ -4,38 +4,23 @@ layout: default
 
 <div class="row workspace" > 
 	{% for post in site.posts %}
-			<div class="homework">
-                    <div class="front-page_images">
-                        <a href="{{ post.url }}">
-                            <img src="/images/{{ post.title }}.jpg"  alt="{{ post.title }}" />
-                        </a>
-                    </div>
-				<div class="homeworktext">
+		<div class="homework">
+        	<div class="front-page_images">
+            	<a href="{{ post.url }}" alt="{{ post.title }}">
+                	<img src="/images/{{ post.title }}.jpg"  alt="{{ post.title }}" />
+                </a>
+            </div>
+			<div class="homeworktext">
+		    	<a href="{{ post.url }}" alt="{{ post.title }}">
+					<h4> <span class="glyphicon glyphicon-folder-close"></span> {{ post.title }} </h4>
 
-                    <a href="#">
-						<h4> <span class="glyphicon glyphicon-folder-close"></span> {{ post.title }} </h4>
+		        </a>
+		        <div class="data"> <small> Last update: {{ post.date }}</small></div>
+				<div class="progress progress-striped active">   <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="98" style="width:100%"></div>
 
-                        </a>
-                        <div class="project_posts">
-
-                        {% if project.posts %}
-                            {% for post in project.posts.all %}
-                                <span class="glyphicon glyphicon-file"></span><a href="{{ post.url }}"> {{ post.title }} ( read ) </a> </blockquote>
-                            {% endfor %}
-                        {% endif %}
-                        </div>
-
-
-
-
-                        <div class="data"> <small> Last update:  {{ post.date }}</small></div>
-						<div class="progress progress-striped active">   <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="98" style="width:100%"></div>
-
-                         </div>
-			    </div>
-
-	        </div>
-	     
-	{% endfor %}
-
+		    </div>
+	</div>
 </div>
+{% endfor %}
+
+
