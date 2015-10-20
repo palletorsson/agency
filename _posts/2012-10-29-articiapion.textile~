@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Articipation"
+title: "hackage"
 ---
 
 h2. {{ page.title }}
