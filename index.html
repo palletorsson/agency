@@ -3,5 +3,26 @@ layout: default
 title: Articipation 
 ---
 
-<div class="row workspace" > a very simple measurement can be done by placing your plant into a Faraday cage, piercing two thin Pt wires(electrodes)  through the stem and connect the wires to a voltage amplifier, one to the ground and the other to the signal input. If you can trigger an electric response in your plant, a biphasic signal will be recorded some minutes or hours (!) after your trigger pulse (heat or draught pulse). The signal at the amplifier will be caused by kind of action potential travelling through the stem and changing the electrodes  potentials resulting in a deflection first to one direction (+ or -) followed by a potential change in the other direction. The amplitude of the potential changes depends on how close your electrode wires are located to the cells or tissue that carry the "action potentials". To document the signal you may also need an AD converter to store the recordings on a computer. A chart recorder would do the job, too, but doesn't allow you to change the scalings of your recordings afterwards. You may get an overview of some basic electrophysiology equipment (e.g. voltage amplifier) at www.wpiinc.com. A basic set-up may cost you ca. US$ 3000-5000. After preliminary experiments, the performance (e.g. signal-noise ratio, stability of the signal) can be improved by fabrication and use of Ag/AgCl-microelectrodes. Parts of the equipment like Faraday cages can be built by yourself but I would recommend to buy amplifiers and AD converters although you can find some circuits for amplifiers in the internet (e.g. http://neurotechzone.com/posts/1126). The commercial amplifiers contain optimised and tuned parts. Godd luck
+<div class="row workspace" > 
+	{% for post in posts %}
+	<div class="worklist">
+
+		<div class="worklisttext">
+			<h3> 
+				<span class="glyphicon glyphicon-file"></span>
+				<a href="/posts/{{ post.url }}/">  {{ post.title }}</a>  
+				<small>{{ post.date | date_to_string }} </small> 
+			</h3>			   
+		</div>
+			
+		<a href="/posts/{{ post.title }}/"> 
+			<div class="worklistimg">
+				<img src="{% version post.image 'medium' %}" alt="{{ post.slug }}" />
+			</div>
+		</a>
+
+	</div>	
+	<br />
+	<br />
+	{% endfor %}
 </div>
