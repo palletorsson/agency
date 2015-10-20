@@ -13,12 +13,14 @@ In the fieldwork at the software company, a difference between ideologically and
   
 Unclear boundaries forming potential conflicts occurred between the personal identities and freedom and the structured status of the company. A conflict I consider to be typically for the ambivalent nature of networks in the knowledge society, occurring between persons and organizations. I observed borders between freedom and control, such as individual creativity and workgroup. My findings are about boundaries between creativity and organization, individual liberty, and group dynamics formed. How network openness and rules of commercial projects, ethical and political evaluation of openness and enclosure and dreams of a more democratic world and a successful company. A conflict that is forming between the imaginary and real. I also found a key in how the essential formation of skill sets is of the organizational body and for the kind of creative and open system. A question that is critical to the flow of creativity and knowledge society, I investigate.
 
+
+<hr>
+
 <h3>The Company</h3>
 The software developer company, founded in 2010, is located in Stockholm, Sweden. They started out as a web development company and have gradually expanded their work to web services, business development, and custom screen solutions.
 
 The company has a website with a minimum amount of information that somewhat contrasts their good network of developers, influx of jobs, steady backers and prestigious clients. They have a Facebook page and a similar Twitter account where they post now and then, but most of their work is not made public.
 
-<hr>
 
 <strong>Revelopers</strong> 
 The company consists of six autodidactic developers and hackers with a general problem-solving nature; four persons are partners in the business, and two persons are employees. They are all men. Going back to the 90s, they had been friends before they took part in forming the company. They all have a deep interest in their work, share a passion for technology and to an extent also have overlapping hacker ethics, skills, and interests. I have a common history with some of them in the work around The Piracy Bureau dating back to 2004.
@@ -57,7 +59,7 @@ Work hours are full flex so they can work where it is best suited, from home or 
 
 Lunch hours are used for meetings and discussions often at restaurants nearby. The topics here extend to ethical or philosophical discussions on the state of development, work principles and process, on ideological or ethical anecdotic reflections on digital, political and social systems. Here the full fledge hacker ethics concern of systems are in the open.
 
-<h2>Commentary</h2>
+<h3>Commentary</h3>
 
 I assume that the discussions are as a way of establishing the identity of the team in the competitive environment of the company as well as in a larger ethical and social context of openness. In the discussions, there is clearly a positioning against what they pinpoint as negative player protocols, services, design, and behavior. If I interpret this case in a wider context, these bad entities often seem to benefit from hierarchical, closed and centralized systems. These systems contrast with open technologies such as the internet that has the potential to break and remake these systems. 
 
