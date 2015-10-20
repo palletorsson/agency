@@ -1,1 +1,9 @@
-permalink: date
+safe:        false
+auto:        false
+
+source:      .
+destination: ./
+
+future:      true
+lsi:         false
+pygments:    false
