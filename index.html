@@ -4,18 +4,18 @@ title: Articipation
 ---
 
 <div class="row workspace" > 
-	{% for post in posts %}
+	{% for post in site.posts %}
 	<div class="worklist">
 
 		<div class="worklisttext">
 			<h3> 
 				<span class="glyphicon glyphicon-file"></span>
-				<a href="/posts/{{ post.url }}/">  {{ post.title }}</a>  
+				<a href="{{ post.url }}/">  {{ post.title }}</a>  
 				<small>{{ post.date | date_to_string }} </small> 
 			</h3>			   
 		</div>
 			
-		<a href="/posts/{{ post.title }}/"> 
+		<a href="{{ post.url }}/"> 
 			<div class="worklistimg">
 				<img src="#" alt="{{ post.title }}" />
 			</div>
