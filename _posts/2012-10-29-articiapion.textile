@@ -3,7 +3,7 @@ layout: post
 title: "Revelopers"
 ---
 
-
+<div class="work">
 <h1> Revelopers</h1>
 
 <h3>Introduction</h3>
@@ -124,3 +124,5 @@ The company is a male homosocial entity; can that lead to problems in terms of t
 The informal work process set in the open office landscape is a flexible and efficient model drawing from the experience of being a software developer. Drawing from software methods like lean and scrum, how can such practices inform the distributed networked knowledge model in my continued research?
 
 Special thanks to Katarina Grönfors and Youkali for Proofreading and all the people at the company for making the project happen.
+
+</div>
