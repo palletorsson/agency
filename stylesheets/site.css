@@ -273,7 +273,8 @@ padding-bottom:10px;
     font-size: 90%;
     font-weight: bold;
     line-height: 0.5;
-    line-height: 0.5space;
+    white-space: normal; 
+
 }
 
 .modal-dialog {
