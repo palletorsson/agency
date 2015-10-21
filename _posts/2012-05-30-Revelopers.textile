@@ -3,7 +3,7 @@ layout: post
 title: "Revelopers"
 date: "2012-05-30"
 pdf: "https://dl.dropboxusercontent.com/u/1882061/articipation/Revelopers.pdf"
-rft: "https://dl.dropboxusercontent.com/u/1882061/articipation/Revelopers.rtf"
+rtf: "https://dl.dropboxusercontent.com/u/1882061/articipation/Revelopers.rtf"
 procent: "100"
 ---
 <h3> {{ page.title }} <small> ( {{ page.date | date_to_string }} ) | files: <a href="{{ page.pdf }}">{{ page.title }}.pdf</a> | <a href="{{ page.rtf }}">{{ page.rtf }}.rft</a> </small></h3>
