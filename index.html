@@ -15,8 +15,8 @@ layout: default
 					<span class="glyphicon glyphicon-folder-close"></span> 
 					<a href="{{ post.url }}" alt="{{ post.title }}"> {{ post.title }} </a></h4>		        
 					<h5>Files: 
-						<a href="{{ post.pdf }}">_.pdf</a> | 
-						<a href="{{ post.rtf }}">_.rft</a>
+						<a href="{{site.data.global.dropbox_folder_path}}/{{ post.title }}.pdf">_.pdf</a> | 
+						<a href="{{site.data.global.dropbox_folder_path}}/{{ post.title }}.rtf">_.rft</a>
 					</h5>
 		
 					<div class="progress progress-striped active">   
