@@ -1,13 +1,10 @@
 ---
 layout: default
 ---
-{% capture dropbox_link %}{{ site.data.global.dropbox_folder_path }}{{ page.title }}{% endcapture %}
 
 <div class="row" > 
-
 	{% for post in site.posts %}
 	<div class="worklist">
-
 		<div class="worklisttext">
 			<h3> 
 				<span class="glyphicon glyphicon-file"></span>
@@ -18,7 +15,7 @@ layout: default
 			
 		<a href="{{ post.url }}"> 
 			<div class="worklistimg">
-				<img src="{{ dropbox_link }}.jpg" alt="{{ post.title }}" />
+				<img src="{{site.data.global.dropbox_folder_path}}/{{ post.title }}_thumb.jpg" alt="{{ post.title }}" />
 			</div>
 		</a>
 
