@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<h3> {{ page.title }} <small> ( {{ page.date | date_to_string }} ) | files: <a href="{{ site.data.global.dropbox_folder_path }} {{ post.title }}.pdf">{{ page.title }}.pdf</a> | <a href="{{ site.data.global.dropbox_folder_path }} {{ post.title }} .rft">{{ page.title }}.rft</a> </small></h3>
+
+{% capture dropbox_link %}{{ site.data.global.dropbox_folder_path }}{{ post.title }}{% endcapture %}
+
+<h3> {{ page.title }} <small> ( {{ page.date | date_to_string }} ) | files: <a href="{{ dropbox_link }}.pdf">{{ page.title }}.pdf</a> | <a href="{{ dropbox_link }}.rft">{{ page.title }}.rft</a> </small></h3>
 <iframe src="https://docs.google.com/document/d/{{ page.iframe_id }}/pub?embedded=true" style=" width:100%; height:600px; overflow-y:scroll; frameBoarder:0;" ></iframe>
     	
 
