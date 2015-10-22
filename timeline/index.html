@@ -51,7 +51,7 @@ layout: default
 		</div>
 		<div class="timeline_content">
 			<div class="timeline_label">
-		
+		        {% capture dropbox_link %}{{ site.data.global.dropbox_folder_path }}{{ post.title }}{% endcapture %}
 				{% for post in site.posts %}
 				<div class="label label-success" style="display:block;position:relative;top:100px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:16px;">
 					<span class="label label-primary">{{ post.title }}</span> 
@@ -59,7 +59,7 @@ layout: default
 				</div>
 				<div class="" style="display:block;position:relative;top:100px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:30px;">
 					<a href="{{ post.url }}""> 
-					<div><img class="timeline_img" src="/images/{{ post.title }}.jpg"  alt="{{ post.title }}" />
+					<div><img class="timeline_img" src="/images/{{ dropbox_link }}.jpg"  alt="{{ post.title }}" />
 					</div>
 					</a>
 				</div>
