@@ -4,7 +4,7 @@ title: "3D world"
 date: "2013-12-03"
 procent: "100"
 iframe_id: 1eGdk9VYQU7QndeosGqkQ98Zd5t0qALem8snuM2wvJBo
-when: 1000
+when: 860
 howlong: 100
 ---
 
