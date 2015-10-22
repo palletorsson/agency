@@ -299,4 +299,13 @@ width: 800px;
  margin-left: -12px; 
  color: red; 
 }
+.homework img {
+  width: 320px;
+  height: 190px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+}
+
+
 }
