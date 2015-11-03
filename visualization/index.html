@@ -79,7 +79,7 @@ var svg = d3.select("body").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
-d3.json("/javascripts/flare_4.json", function(error, classes) {
+d3.json("/javascripts/flare.json", function(error, classes) {
   var nodes = cluster.nodes(packageHierarchy(classes)),
       links = packageImports(nodes);
 
