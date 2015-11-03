@@ -59,11 +59,10 @@
         ]
     },
     {
-        "name": "workshop.M2bp2p",
+        "name": "workshop.Mesh_networks",
         "size": 3938,
         "imports": [
-            "agent.group.Sparvnästet",
-			"agent.group.Royal_Collage_of_Art"
+            "agent.group.Sparvnästet"
         ]
     },
     {
