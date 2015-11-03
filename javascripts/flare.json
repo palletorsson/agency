@@ -1,0 +1,262 @@
+[
+    {
+        "comment": "_Workshops_first",
+        "name": "workshop.Make_All",
+        "size": 3938,
+        "imports": [
+            "issue.Hacker_Vs_Maker",
+            "agent.group.Sparvnästet",
+            "agent.group.Tekniska_Museet"
+        ]
+    },
+    {
+        "name": "workshop.Art_of_Exploitation",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet"
+        ]
+    },
+    {
+        "name": "workshop.Piracy_Imaginaries",
+        "size": 3938,
+        "imports": [
+            "agent.group.Piracy_Cluster",
+            "issue.Institutionalization",
+            "issue.Learning_Models"
+        ]
+    },
+    {
+        "name": "workshop.Learning_from_Piracy",
+        "size": 3938,
+        "imports": [
+            "agent.group.Piracy_Cluster",
+            "issue.Institutionalization",
+            "issue.Learning_Models"
+        ]
+    },
+    {
+        "name": "workshop.Whitewashing_Piracy",
+        "size": 3938,
+        "imports": [
+            "agent.group.Piracy_Cluster",
+            "issue.Institutionalization"
+        ]
+    },
+    {
+        "name": "workshop.CryptoParty",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet",
+            "issue.Institutionalization",
+            "issue.Learning_Models"
+        ]
+    },
+    {
+        "name": "workshop.Över_gränsen",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet"
+        ]
+    },
+    {
+        "name": "workshop.Mesh_networks",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet"
+        ]
+    },
+    {
+        "comment": "_Workshops_last",
+        "name": "workshop.3D_world",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet"
+        ]
+    },
+    {
+        "comment": "_Issues_first",
+        "name": "issue.Hacker_Vs_Maker",
+        "size": 3938,
+        "imports": []
+    },
+    {
+        "name": "issue.Freedom_Vs_Equality",
+        "size": 3938,
+        "imports": []
+    },
+    {
+        "name": "issue.Institutionalization",
+        "size": 3938,
+        "imports": []
+    },
+    {
+        "name": "issue.Learning_Models",
+        "size": 3938,
+        "imports": []
+    },
+    {
+        "comment": "_Agents_first",
+        "name": "agent.group.Sparvnästet",
+        "size": 3938,
+        "imports": [
+            "workshop.Make_All"
+        ]
+    },
+    {
+        "name": "agent.group.Tekniska_Museet",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet",
+            "workshop.Piracy_Imaginaries"
+        ]
+    },
+    {
+        "name": "agent.group.23c",
+        "size": 3938,
+        "imports": [
+            "agent.group.Piratbyrån"
+        ]
+    },
+    {
+        "name": "agent.group.Piratbyrån",
+        "size": 3938,
+        "imports": [
+            "agent.group.Piratbyrån",
+            "workshop.Piracy_Imaginaries"
+        ]
+    },
+    {
+        "name": "agent.group.Konsthall_C",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet",
+            "workshop.CryptoParty"
+        ]
+    },
+    {
+        "name": "agent.group.Piracy_Cluster",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet",
+            "workshop.Piracy_Imaginaries"
+        ]
+    },
+    {
+        "name": "agent.group.Royal_Collage_of_Art",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet",
+            "workshop.Piracy_Imaginaries",
+            "workshop.Mesh_networks",
+            "workshop.3D_world"
+        ]
+    },
+    {
+        "name": "agent.group.Free_Art_Technology_(FAT)",
+        "size": 3938,
+        "imports": [
+            "agent.group.Piratbyrån", 
+            "Exhibtion.Piratbyrån_and_Friends"
+        ]
+    },
+    {
+        "name": "agent.group.Extended_Hacker_and_Maker_Community",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet", 
+            "Exhibtion.Piratbyrån_and_Friends"
+        ]
+    },
+     {
+        "name": "agent.group.Digitala_Fri_och_Rättigheter_(DFRI)",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet",      
+            "agent.group.Konsthall_C", 
+            "workshop.CryptoParty"
+        ]
+    },
+    
+    {
+        "name": "agent.group.Furtherfield_Gallery",
+        "size": 3938,
+        "imports": [
+            "agent.group.Piratbyrån", 
+            "Exhibtion.Piratbyrån_and_Friends"
+        ]
+    },
+    
+    {
+        "comment": "_Technology_first",
+        "name": "Technlogies.Fm_Radio",
+        "size": 3938,
+        "imports": [
+            "Installation.Radio_Gaga"
+        ]
+    },
+    {
+        "name": "Technlogies.Javascript",
+        "size": 3938,
+        "imports": [
+            "Installation.Radio_Gaga",
+            "Installation.Deathray",
+            "Installation.Riot_Chat"
+        ]
+    },
+    {
+        "name": "Technlogies.Python",
+        "size": 3938,
+        "imports": [
+            "Installation.Radio_Gaga",
+            "Installation.Deathray",
+            "Installation.Riot_Chat"
+        ]
+    },
+    {
+        "name": "Technlogies.Arduino",
+        "size": 3938,
+        "imports": [
+            "Installation.Deathray"
+        ]
+    },
+    {
+        "name": "Technlogies.RaspBerry_Pi",
+        "size": 3938,
+        "imports": [
+            "Installation.Radio_Gaga"
+        ]
+    },
+    {
+        "comment": "_Installation_first",
+        "name": "Installation.Radio_Gaga",
+        "size": 3938,
+        "imports": []
+    },
+    {
+        "name": "Installation.Riot_Chat",
+        "size": 3938,
+        "imports": []
+    },
+    {
+        "name": "Installation.Deathray",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet"
+        ]
+    },
+    {
+        "comment": "_Exhibition_first",
+        "name": "Exhibtion.Piratbyrån_and_Friends",
+        "size": 3938,
+        "imports": [
+            "Installation.Riot_Chat"
+        ]
+    },
+    {
+        "name": "Exhibtion.Art_Hack_Day",
+        "size": 3938,
+        "imports": [
+            "Installation.Deathray"
+        ]
+    }
+]
