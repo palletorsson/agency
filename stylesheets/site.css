@@ -281,11 +281,11 @@ width: 800px;
 
 }
 
-@media (min-width: 1200px)
+
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
   width: 100%;
 }
-@media (min-width: 1200px)
+
 .container {
   max-width: 100%;
 }
