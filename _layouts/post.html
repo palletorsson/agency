@@ -4,9 +4,6 @@ layout: default
 
 {% capture dropbox_link %}{{ site.data.global.dropbox_folder_path }}{{ page.title }}{% endcapture %}
 
-<h3> {{ page.title }} <small> ( {{ page.date | date_to_string }} ) | files: <a href="{{ dropbox_link }}.pdf">{{ page.title }}.pdf</a> | <a href="{{ dropbox_link }}.rft">{{ page.title }}.rft</a> </small></h3>
+<h3> {{ page.title }} <small> ( {{ page.date | date_to_string }} ) | <a href="https://docs.google.com/document/d/{{ page.iframe_id }}/pub?embedded=true">Open {{ page.title }} in a new window </a> | <a href="https://docs.google.com/document/d/{{ page.iframe_id }}/edit">Add comment and suggestions to {{ page.title }}</a> </small></h3>
 <iframe src="https://docs.google.com/document/d/{{ page.iframe_id }}/pub?embedded=true" id="iframe" style=" width:100%; height:{{ page.height }}px; overflow-y: hidden; border:0;" ></iframe>
-    	
-<script>
-$("#iframe").contents().find('a').attr("target", "_blank");
-</script>
+

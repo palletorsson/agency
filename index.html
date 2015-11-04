@@ -14,9 +14,8 @@ layout: default
 				<h4> 
 					<span class="glyphicon glyphicon-folder-close"></span> 
 					<a href="{{ post.url }}" alt="{{ post.title }}"> {{ post.title }} </a></h4>		        
-					<h5>Files: 
-						<a href="{{site.data.global.dropbox_folder_path}}/{{ post.title }}.pdf">_.pdf</a> | 
-						<a href="{{site.data.global.dropbox_folder_path}}/{{ post.title }}.rtf">_.rft</a>
+					<h5>File:
+						<a href="https://docs.google.com/document/d/{{ page.iframe_id }}/pub?embedded=true">Open {{ page.title }} in a new window </a> | <a href="https://docs.google.com/document/d/{{ page.iframe_id }}/edit">Add comment and suggestions to {{ page.title }}</a> 
 					</h5>
 		
 					<div class="progress progress-striped active">   
