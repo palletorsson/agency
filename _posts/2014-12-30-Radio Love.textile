@@ -3,7 +3,7 @@ layout: post
 title: "Radio Kove"
 date: "2014-12-30"
 iframe_id: 1WwNtH1pf_5pSHlfJs8qtxq2uC4jWOYzD7WpofNtXj6k
-procent: "100"
+procent: "90"
 when: 2100
 howlong: 300
 height: 2000
