@@ -5,7 +5,7 @@ date: "2014-05-28"
 iframe_id: 1v3vBoEEqqRHoAqYm47bA3NH9W42dSLkGutXUdIT5-Xc
 procent: "90"
 when: 1400
-howlong: 300
+howlong: 150
 height: 2000
 summery: ...   The report “Whitewashing piracy” focused on backlash, withdrawal of and reincorporation of the subversive potential of piracy, activism or hacking by commercial, state or free agents.  
 ---
