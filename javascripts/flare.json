@@ -111,7 +111,7 @@
         ]
     },
     {
-        "name": "agent.group.23c",
+        "name": "agent.group.Revelopers",
         "size": 3938,
         "imports": [
             "agent.group.Piratbyrån"
