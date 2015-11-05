@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: drafts
 title: "Learning from Piracy"
 date: "2013-12-13"
 iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
