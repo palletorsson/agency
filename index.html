@@ -26,7 +26,15 @@ layout: default
 					Last Updated: {{ post.date | date_to_string }}
 					</h6>
 			</div>
-</div>
+	</div>
 {% endfor %}
 
+<ul>
+  {% for post in site.resources.posts %}
+    <li>
+      {{ post.title }}
+    </li>
+  {% endfor %}
+</ul>
+</div>
 
