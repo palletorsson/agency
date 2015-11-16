@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="row" > 
 	{% for post in site.posts %}
-  
+  {{ post.date }}
 	{% if post.date == "2012-01-01" %}
 		mjau
 	{% else %}
