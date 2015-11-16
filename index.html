@@ -3,6 +3,11 @@ layout: default
 ---
 <div class="row" > 
 	{% for post in site.posts %}
+  
+	{% if post.ref %}
+		mjau
+	{% else %}
+       
 		<div class="homework">
         	<div class="front-page_images">
             	<a href="{{ post.url }}" alt="{{ post.title }}">
@@ -27,14 +32,12 @@ layout: default
 					</h6>
 			</div>
 	</div>
+
+	{% endfor %}
+
+
+
 {% endfor %}
 
-<ul>
-  {% for post in site.resources.posts %}
-    <li>
-      {{ post.title }}
-    </li>
-  {% endfor %}
-</ul>
-</div>
+
 
