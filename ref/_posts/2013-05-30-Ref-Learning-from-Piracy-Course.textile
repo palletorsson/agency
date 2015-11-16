@@ -6,6 +6,7 @@ type: ref
 resoure_link: abc
 about: this is a ref.
 what: pdf
+howlong: 4000
 
 ---
 
