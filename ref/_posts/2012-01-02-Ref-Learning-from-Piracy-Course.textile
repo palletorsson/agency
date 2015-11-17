@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "ref"
+title: "Learning from Piracy Course Proposition"
 date: "2012-01-02"
-resoure_link: abc
-about: this is the zero ref.
-what: none
+link: abc
 howlong: 4000
 ---
 
