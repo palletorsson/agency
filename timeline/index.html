@@ -52,16 +52,22 @@ layout: default
 		<div class="timeline_content">
 			<div class="timeline_label">
 				{% for post in site.posts %}
-				<div class="label label-success" style="display:block;position:relative;top:100px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:16px;">
-					<span class="label label-primary">{{ post.title }}</span> 
-					<div class="timeline_line"></div>
-				</div>
-				<div class="" style="display:block;position:relative;top:100px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:10px;">
-					<a href="{{ post.url }}""> 
-					<div><img class="timeline_img" src="{{site.data.global.dropbox_folder_path}}/{{ post.title }}_thumb.jpg"  alt="{{ post.title }}" />
+
+					{% if post.howlong == 5000 or post.howlong == 4000 %}
+						   				  
+					{% else %}
+					<div class="label label-success" style="display:block;position:relative;top:100px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:16px;">
+						<span class="label label-primary">{{ post.title }}</span> 
+						<div class="timeline_line"></div>
 					</div>
-					</a>
-				</div>
+					<div class="" style="display:block;position:relative;top:100px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:10px;">
+						<a href="{{ post.url }}""> 
+						<div><img class="timeline_img" src="{{site.data.global.dropbox_folder_path}}/{{ post.title }}_thumb.jpg"  alt="{{ post.title }}" />
+						</div>
+						</a>
+					</div>
+					{% endif %}		
+
 				{% endfor %}		
 		</div>
 	</div>
