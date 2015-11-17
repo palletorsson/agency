@@ -4,19 +4,27 @@ layout: default
 <div class="row" > 
 	{% for post in site.posts %}
 
-	{% if post.howlong == 4000 %}
+	{% if post.howlong == 5000 %}
 		       
-		<div class="homework">
-        	<div class="front-page_images">
+		<div>
+        	<div>
+            	<hr>
+				<h4> Referance </h4>
+            </div>
+		</div>
+
+	
+       	{% elseif post.howlong == 4000 %}
+		       
+		<div>
+        	<div>
             	<a href="{{ post.url }}" alt="{{ post.title }}">
-                	<img src="{{site.data.global.dropbox_folder_path}}/{{ post.title }}_thumb.jpg"  alt="{{ post.title }}" />
-  					<div class="process pull-right"> {{ post.title }} </div>
-                </a>
+                	{{ post.title }} 
+               </a>
             </div>
 	</div>
 
 	{% else %}
-       
 		<div class="homework">
         	<div class="front-page_images">
             	<a href="{{ post.url }}" alt="{{ post.title }}">
