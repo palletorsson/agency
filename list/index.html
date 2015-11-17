@@ -4,6 +4,27 @@ layout: default
 
 <div class="row" > 
 	{% for post in site.posts %}
+
+	{% if post.howlong == 5000 %}
+		   
+		<div style="clear:both">
+        	<div>
+            	<hr>
+					<h3> Referance </h3>
+				<hr>
+            </div>
+		</div>
+
+	
+       	{% elsif post.howlong == 4000 %}
+		      
+		<div>
+    		<a href="{{ post.url }}" alt="{{ post.title }}">
+            	{{ post.title }} 
+            </a>
+         </div>
+
+	{% else %}
 	<div class="worklist listcontainer">
 		<div class="row">
 		  <div class="col-xs-10 col-sm-8 col-md-10">
@@ -27,5 +48,7 @@ layout: default
      			   
 		</div>	
 	<hr>	
+
+	{% endif %}
 	{% endfor %}
 </div>
