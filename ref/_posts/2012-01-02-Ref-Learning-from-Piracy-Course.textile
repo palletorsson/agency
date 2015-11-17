@@ -2,11 +2,9 @@
 layout: post
 title: "ref"
 date: "2012-01-01"
-type: ref
 resoure_link: abc
-about: this is a ref.
-what: pdf
-howlong: 4000
-
+about: this is the zero ref.
+what: none
+howlong: 5000
 ---
 
