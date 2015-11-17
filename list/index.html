@@ -8,7 +8,7 @@ layout: default
 	{% if post.howlong == 5000 %}
 		   
 		<div style="clear:both">
-        	<div>
+        	<div class="listcontainer">
             	<hr>
 					<h3> Referance </h3>
 				<hr>
@@ -18,7 +18,7 @@ layout: default
 	
        	{% elsif post.howlong == 4000 %}
 		      
-		<div>
+		<div class="listcontainer">
     		<a href="{{ post.url }}" alt="{{ post.title }}">
             	{{ post.title }} 
             </a>
