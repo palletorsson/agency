@@ -7,22 +7,21 @@ layout: default
 	{% if post.howlong == 5000 %}
 		   
 		<div style="clear:both">
-        	<div>
+        	<div class="listcontainer">
             	<hr>
-				<h4> Referance </h4>
+					<h3> Referance </h3>
+				<hr>
             </div>
 		</div>
 
 	
        	{% elsif post.howlong == 4000 %}
 		      
-		<div>
-        	<div>
-            	<a href="{{ post.url }}" alt="{{ post.title }}">
-                	{{ post.title }} 
-               </a>
-            </div>
-	</div>
+		<span>
+    		<a href="{{ post.url }}" alt="{{ post.title }}">
+            	{{ post.title }} 
+            </a> | 
+         </span>
 
 	{% else %}
 		<div class="homework">
