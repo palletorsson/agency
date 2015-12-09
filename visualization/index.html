@@ -56,8 +56,9 @@ layout: default
 var diameter = 600,
     radius = diameter / 2,
     innerRadius = radius - 120
-    diameter_margin = diameter + 200;
-    radius_transform = radius + 100;  
+    diameter_margin = diameter + 200,
+    radius_transform_h = radius + 50,  
+    radius_transform_w = radius + 150;
 
 var cluster = d3.layout.cluster()
     .size([360, innerRadius])
@@ -76,7 +77,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", diameter_margin)
     .attr("height", diameter_margin)
   .append("g")
-    .attr("transform", "translate(" + radius_transform + "," + radius_transform + ")");
+    .attr("transform", "translate(" + radius_transform_w + "," + radius_transform_h + ")");
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
