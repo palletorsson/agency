@@ -15,7 +15,9 @@ h1, h2, h3, h4, h5, h6 {
 footer {
 	height:260px;
 }
-
+.about {
+    width:760px;
+}
 .navbar-brand img {
     width:20px;
 }
