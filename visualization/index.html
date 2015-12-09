@@ -55,7 +55,9 @@ layout: default
 
 var diameter = 600,
     radius = diameter / 2,
-    innerRadius = radius - 120;
+    innerRadius = radius - 120
+    diameter_margin = diameter + 200;
+    radius_transform = radius + 100;  
 
 var cluster = d3.layout.cluster()
     .size([360, innerRadius])
@@ -71,10 +73,10 @@ var line = d3.svg.line.radial()
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
 var svg = d3.select("body").append("svg")
-    .attr("width", 800)
-    .attr("height", 800)
+    .attr("width", diameter_margin)
+    .attr("height", diameter_margin)
   .append("g")
-    .attr("transform", "translate(" + radius + "," + radius + ")");
+    .attr("transform", "translate(" + radius_transform + "," + radius_transform + ")");
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
