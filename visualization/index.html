@@ -53,7 +53,7 @@ layout: default
 <script src="/javascripts/d3.mini.js"></script>
 <script>
 
-var diameter = 700,
+var diameter = 600,
     radius = diameter / 2,
     innerRadius = radius - 120;
 
@@ -71,10 +71,10 @@ var line = d3.svg.line.radial()
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
 var svg = d3.select("body").append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter)
+    .attr("width", diameter+200)
+    .attr("height", diameter+200)
   .append("g")
-    .attr("transform", "translate(" + radius + "," + radius + ")");
+    .attr("transform", "translate(" + radius+400 + "," + radius + ")");
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
