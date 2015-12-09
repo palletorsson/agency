@@ -55,17 +55,19 @@
     height:20px;
 }
 
-timeline_img:hover { 
-    z-index: 20; 
-}
+
 
 .timeline_img  {
-    width:200px;
+    width:300px;
     margin:2px;
     position:relative;
     left:-40px;
     border: 1px solid pink;
     opacity:0.8;
+}
+
+.timeline_img:hover { 
+    z-index: 20; 
 }
 
 .line {
