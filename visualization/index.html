@@ -71,10 +71,10 @@ var line = d3.svg.line.radial()
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
 var svg = d3.select("body").append("svg")
-    .attr("width", diameter+200)
-    .attr("height", diameter+200)
+    .attr("width", 800)
+    .attr("height", 800)
   .append("g")
-    .attr("transform", "translate(" + radius+400 + "," + radius + ")");
+    .attr("transform", "translate(" + radius + "," + radius + ")");
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
