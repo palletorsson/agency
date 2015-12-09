@@ -1,0 +1,9 @@
+--- 
+layout: post title: "Vr application" 
+date: "2012-01-30" 
+type: ref 
+resoure_link: https://dl.dropboxusercontent.com/u/1882061/articipation/VR_PT_2012.pdf 
+about: this is a ref. 
+what: pdf 
+howlong: 5000 
+---
