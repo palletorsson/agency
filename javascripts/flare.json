@@ -5,6 +5,7 @@
         "size": 3938,
         "imports": [
             "issue.Hacker_Vs_Maker",
+            "issue.Institutionalization",
             "agent.group.Sparvnästet",
             "agent.group.Tekniska_Museet"
         ]
