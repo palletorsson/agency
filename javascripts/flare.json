@@ -14,7 +14,8 @@
         "name": "workshop.Art_of_Exploitation",
         "size": 3938,
         "imports": [
-            "agent.group.Sparvnästet"
+            "agent.group.Sparvnästet",
+            "issue.Learning_Models"
         ]
     },
     {
