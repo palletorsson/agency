@@ -259,6 +259,15 @@
         ]
     },
     {
+        "name": "Installation.c7",
+        "size": 3938,
+        "imports": [
+            "agent.group.Revelopers", 
+            "Technlogies.Python",
+            "Technlogies.Javascript"
+        ]
+    },
+    {
         "comment": "_Exhibition_first",
         "name": "Exhibtion.Piratbyrån_and_Friends",
         "size": 3938,
