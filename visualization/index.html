@@ -76,11 +76,12 @@ var line = d3.svg.line.radial()
 var svg = d3.select("body").append("svg")
     .attr("width", diameter_margin)
     .attr("height", diameter_margin)
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + radius_transform_w + "," + radius_transform_h + ")");
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
+
 
 d3.json("/javascripts/flare.json", function(error, classes) {
   var nodes = cluster.nodes(packageHierarchy(classes)),
@@ -103,6 +104,7 @@ d3.json("/javascripts/flare.json", function(error, classes) {
       .text(function(d) { return d.key; })
       .on("mouseover", mouseovered)
       .on("mouseout", mouseouted);
+      
 });
 
 function mouseovered(d) {
