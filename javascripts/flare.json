@@ -6,6 +6,7 @@
         "imports": [
             "issue.Hacker_Vs_Maker",
             "issue.Institutionalization",
+            "issue.Learning_Models",
             "agent.group.Sparvnästet",
             "agent.group.Tekniska_Museet"
         ]
@@ -50,7 +51,10 @@
         "imports": [
             "agent.group.Sparvnästet",
             "issue.Institutionalization",
-            "issue.Learning_Models"
+            "issue.Learning_Models",
+            "issue.Hacker_Vs_Maker",
+            "issue.Freedom_Vs_Equality",
+        
         ]
     },
     {
