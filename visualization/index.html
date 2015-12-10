@@ -47,7 +47,12 @@ layout: default
 .link--target {
   stroke: #2ca02c;
 }
-
+.headtext {
+  stroke-opacity: 0.8;
+  fill: black;
+  font: 300 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+              
 </style>
 <body>
 <script src="/javascripts/d3.mini.js"></script>
@@ -94,10 +99,8 @@ var textLabels = text
                  .attr("x", function(d) { return d.cx; })
                  .attr("y", function(d) { return d.cy; })
                  .text( function (d) { return d.text; })
-                 .attr("font-family", "sans-serif")
-                 .attr("font-size", "30px")
-                 .attr("fill", "black")
-                 .css("opacity", 0.5);
+                 .attr("class", "headtext");
+
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
