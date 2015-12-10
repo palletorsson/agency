@@ -79,6 +79,24 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + radius_transform_w + "," + radius_transform_h + ")");
 
+var headData = [
+    { "cx": 20, "cy": 20, "angel": 20, "text" : "workshops" },
+    { "cx": 70, "cy": 70, "angel": 150, "color" : "issues" }];
+ 
+
+var text = svg.append("g").selectAll(".text")
+                        .data(headData)
+                        .enter()
+                        .append("text");
+
+var text = text
+                 .attr("x", function(d) { return d.cx; })
+                 .attr("y", function(d) { return d.cy; })
+                 .text( function (d) { return "( d.text )"; })
+                 .attr("font-family", "sans-serif")
+                 .attr("font-size", "20px")
+                 .attr("fill", "red");
+
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
