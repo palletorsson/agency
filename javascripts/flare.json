@@ -82,6 +82,21 @@
             "issue.Learning_Models"
         ]
     },
+     {
+        "comment": "_Workshops_x",
+        "name": "workshop.Art_Hacks",
+        "size": 3938,
+        "imports": [
+            "agent.group.Sparvnästet",
+            "issue.Institutionalization",
+            "issue.Learning_Models",
+            "issue.Hacker_Vs_Maker",
+            "Technlogies.Python",
+            "Technlogies.Javascript",
+            "Exhibtion.Art_Hack_Day"
+        ]
+    },
+
     {
         "comment": "_Issues_first",
         "name": "issue.Hacker_Vs_Maker",
