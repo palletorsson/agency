@@ -203,14 +203,14 @@
         "name": "Technlogies.Fm_Radio",
         "size": 3938,
         "imports": [
-            "Installation.Radio_Gaga"
+            "Installation.Radio_Love"
         ]
     },
     {
         "name": "Technlogies.Javascript",
         "size": 3938,
         "imports": [
-            "Installation.Radio_Gaga",
+            "Installation.Radio_Love",
             "Installation.Deathray",
             "Installation.Riot_Chat"
         ]
@@ -219,7 +219,7 @@
         "name": "Technlogies.Python",
         "size": 3938,
         "imports": [
-            "Installation.Radio_Gaga",
+            "Installation.Radio_Love",
             "Installation.Deathray",
             "Installation.Riot_Chat"
         ]
@@ -235,12 +235,12 @@
         "name": "Technlogies.RaspBerry_Pi",
         "size": 3938,
         "imports": [
-            "Installation.Radio_Gaga"
+            "Installation.Radio_Love"
         ]
     },
     {
         "comment": "_Installation_first",
-        "name": "Installation.Radio_Gaga",
+        "name": "Installation.Radio_Love",
         "size": 3938,
         "imports": []
     },
