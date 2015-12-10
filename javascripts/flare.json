@@ -176,7 +176,9 @@
         "size": 3938,
         "imports": [
             "agent.group.Sparvnästet", 
-            "Exhibtion.Piratbyrån_and_Friends"
+            "Exhibtion.Piratbyrån_and_Friends", 
+            "workshop.Make_All"
+            "workshop.CryptoParty"
         ]
     },
      {
