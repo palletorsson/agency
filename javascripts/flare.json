@@ -8,7 +8,8 @@
             "issue.Institutionalization",
             "issue.Learning_Models",
             "agent.group.Sparvnästet",
-            "agent.group.Tekniska_Museet"
+            "agent.group.Tekniska_Museet",
+            "Technlogies.Arduino"
         ]
     },
     {
@@ -67,7 +68,8 @@
         "name": "workshop.Mesh_networks",
         "size": 3938,
         "imports": [
-            "agent.group.Sparvnästet"
+            "agent.group.Sparvnästet", 
+            "Technlogies.Python"
         ]
     },
     {
