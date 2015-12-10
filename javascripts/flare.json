@@ -108,7 +108,7 @@
         "imports": [
             "workshop.Make_All",
             "workshop.CryptoParty",
-            "workshop.Över_gränsen",
+            "workshop.Över_gränsen"
         ]
     },
     {
