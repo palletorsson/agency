@@ -160,7 +160,8 @@
         "size": 3938,
         "imports": [
             "agent.group.Free_Art_Technology_(FAT)",
-            "workshop.Piracy_Imaginaries"
+            "workshop.Piracy_Imaginaries",
+            "Exhibtion.Piratbyrån_and_Friends"
             
         ]
     },
