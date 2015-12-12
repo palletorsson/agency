@@ -26,7 +26,8 @@
         "imports": [
             "agent.group.Piracy_Cluster",
             "issue.Institutionalization",
-            "issue.Learning_Models"
+            "issue.Learning_Models",
+            "issue.The_Commons"
         ]
     },
     {
@@ -35,7 +36,9 @@
         "imports": [
             "agent.group.Piracy_Cluster",
             "issue.Institutionalization",
-            "issue.Learning_Models"
+            "issue.Learning_Models",
+            "issue.The_Commons",
+            "workshop.Piracy_Imaginaries"
         ]
     },
     {
@@ -43,7 +46,10 @@
         "size": 3938,
         "imports": [
             "agent.group.Piracy_Cluster",
-            "issue.Institutionalization"
+            "issue.Institutionalization",
+            "issue.The_Commons",
+            "workshop.Piracy_Imaginaries",
+            "workshop.Learning_from_Piracy"
         ]
     },
     {
@@ -114,6 +120,11 @@
         "imports": []
     },
     {
+        "name": "issue.The_Commons",
+        "size": 3938,
+        "imports": []
+    },
+    {
         "name": "issue.Learning_Models",
         "size": 3938,
         "imports": []
@@ -148,8 +159,9 @@
         "name": "agent.group.Piratbyrån",
         "size": 3938,
         "imports": [
-            "agent.group.Piratbyrån",
+            "agent.group.Free_Art_Technology_(FAT)",
             "workshop.Piracy_Imaginaries"
+            
         ]
     },
     {
