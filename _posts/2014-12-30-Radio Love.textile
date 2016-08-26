@@ -10,3 +10,90 @@ height: 12000
 summery: ...  Data Love provides a way to communicate, exchange files and listen to music together for groups of people that share the same physical space. Similar to projects like PirateBox.
 ---
 
+Radio Love
+Data Love
+At a party organized for the Creative Time Summit in Stockholm October 2014, Sparvnästet was invited to make installations and projects. I took this opportunity to test my installation Data Love for the first time. Data Love had grown from a longer genealogy of workshops on alternative communication systems with Sparvnästet, where peer2peer-technologies were one focal point. The project was much inspired by Evan Roth’s file sharing hub and installation “Kopimi Totem”, a work I had encountered at the exhibition Piracy as Friendship at Furtherfield Gallery in London. 
+
+Setup of Data Love at Sparvnästet hackerspace 15th of Nov 2014, at the party organized for the Creative Time Summit
+
+Based on single board computer Raspberry Pi, Data Love provides a way to communicate, exchange files and listen to music together for groups of people that share the same physical space. Similar to projects like PirateBox, Data Love provide an alternative trajectory to cloud services. These projects are artistic initiatives directed away from increased surveillance that occur with the mass centralization of digital communication services. 
+
+Stationary radio station, foldable chair and space blanket installation Hökarängen in Stockholm 2015.
+
+
+My work is also inspired by Gottfrid Svartholm Warg’s boy-room basement. Svartholm Warg is a co founder of Piratebay.
+
+Radio Gaga
+To listen to music together Data Love used synchronized web streaming. For the next iteration of the project called Radio Gaga I made use of the possibility to broadcast radio with the Raspberry pi and created an interactive mobile radio station. I scaled the work into several different versions for different purposes. I installed the work at the occupied school in Hökarängen in Stockholm and made two mobile, solar panel driven versions: a radio backpack and a trolley. The trolley was made to be packable like a tool pack and can be unfolded into an art installation. 
+
+See a video short here from the Hökarängen installation: https://youtu.be/RxHCQsBV_zs
+Radio Love
+I called the mobile versions Radio Love.
+Setup 1, Radio Love - backpack version. 
+The backpack box was laser printed and had three compartments. One for a battery, one for the Raspberry Pi setup, including wiring, and one compartment for a space blanket. The top had a solar panel mounted to it. 
+
+Image of Radio Love
+ 
+Overview of setup, Radio Love
+
+Detail of Radio Love backpack with solar panel and radio antenna. 
+
+
+Radio Love interface for mp3 upload, message feed, fm broadcast etc
+
+Detail of Radio Love open inside
+
+Detail of Radio Love closed outside
+
+
+      
+
+See video here short: https://youtu.be/QGtjzjOgyhA
+Download the model for laser printing of the backpack here.
+
+Setup 2, Radio Love - Trolley version. 
+
+Portable Trolley version Radio<3
+
+
+Trolley version as installation - unpacking Radio<3 
+
+Trolley version as installation - unpacking Radio<3 
+
+Trolley version as installation - final view
+
+See video here short:  https://youtu.be/MegkyqKISOY
+Hardware
+The basics
+A Raspberry Pi Model B
+A SD-card with software 
+A 5v Power cable
+A wifi dongle
+An antenna
+
+Mic setup with 
+Usb Sound card
+Mic with mini-plug
+
+For Portability 
+Solar panel and Regulator
+12v battery with 5v output 
+
+
+Radio Love - Software and network configuration
+Instructions how to setup the software and configure the local network can be found here: 
+https://github.com/palletorsson/partybox
+
+
+The non-art Installation
+With this the last work of the research I concluded my non-art installation position, that has been forming with the research.  The non-art installation came about as an answer to the problem of participation in my application and if I can make art. Working with the installations of the project, I formulated an approach of thinking of my work as tools rather than artworks forming learning experiences rather than exhibitions.
+
+I find the non-art installation a semi-viable approach to continue to explore the flux. The approach entails focusing on how influenced my “art work” is by other work and claim no-originality. I see a temporary escape in focusing on the genealogy of others’ work, non-artwork and art works, and to look at them as a continuation of an open process where my non-art installations mixes the art world and the hacker community. The non-art installation resides in the flux for anyone to build upon. As an answer to the relational art problem of how to represent participation, the non-art installation is a kind of half-withdrawal strategy that focuses largely non-individual genealogy and on technology processes. The result is a temporal position from where I might be able to continue my creative non-installation work.
+
+The non-art installation is unstable and temporary because there is always a potential of recuperation in open systems, between artwork and network. The art object produced in a social milieu and with the focus on art’s social function can still become a token. The central problem here concerns the recuperation of social art and participation, and that a static object can be lifted out of the context of where it was created (most clearly described in the report 3D world, Whitewashing Piracy and Grey Matter). The art object can be moved away from the local context of production into a global context of visibility.
+
+It was one of my first assumption that the more object-like and static something is, the easier it is to attach the art token as a commodity to it, and the logic of individual artist and the art market. However the art object becomes even more insecure when we take into account the logics of knowledge economy. Digital networks and software can derail the idea of the physical object as the only art commodity. In the knowledge economies algorithms make social processes tangible objects and can turn the logics of what can be recuperated more complex. Thus the software object is itself an object in flux, that has non-object-like properties and complexities but is still tangible. Rosalind Krauss identified sculpture in the expanded field, networks has derailed art itself. If we consider the software object to be the prevailing mode of production, maybe it becomes less possible to think about art objects as something that can exist at all.
+
+
+
+
