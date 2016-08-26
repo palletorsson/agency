@@ -1,5 +1,5 @@
 ---
-layout: post_final
+layout: post
 title: "Radio Love"
 date: "2014-12-30"
 iframe_id: 1WwNtH1pf_5pSHlfJs8qtxq2uC4jWOYzD7WpofNtXj6k
