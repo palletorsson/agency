@@ -10,8 +10,8 @@ height: 12000
 summery: ...  Data Love provides a way to communicate, exchange files and listen to music together for groups of people that share the same physical space. Similar to projects like PirateBox.
 ---
 
-Radio Love
-Data Love
+# Radio Love
+## Data Love
 At a party organized for the Creative Time Summit in Stockholm October 2014, Sparvnästet was invited to make installations and projects. I took this opportunity to test my installation Data Love for the first time. Data Love had grown from a longer genealogy of workshops on alternative communication systems with Sparvnästet, where peer2peer-technologies were one focal point. The project was much inspired by Evan Roth’s file sharing hub and installation “Kopimi Totem”, a work I had encountered at the exhibition Piracy as Friendship at Furtherfield Gallery in London. 
 
 Setup of Data Love at Sparvnästet hackerspace 15th of Nov 2014, at the party organized for the Creative Time Summit
@@ -20,14 +20,17 @@ Based on single board computer Raspberry Pi, Data Love provides a way to communi
 
 Stationary radio station, foldable chair and space blanket installation Hökarängen in Stockholm 2015.
 
-
 My work is also inspired by Gottfrid Svartholm Warg’s boy-room basement. Svartholm Warg is a co founder of Piratebay.
 
-Radio Gaga
+## Radio Gaga
 To listen to music together Data Love used synchronized web streaming. For the next iteration of the project called Radio Gaga I made use of the possibility to broadcast radio with the Raspberry pi and created an interactive mobile radio station. I scaled the work into several different versions for different purposes. I installed the work at the occupied school in Hökarängen in Stockholm and made two mobile, solar panel driven versions: a radio backpack and a trolley. The trolley was made to be packable like a tool pack and can be unfolded into an art installation. 
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=RxHCQsBV_zs
+" target="_blank"><img src="http://img.youtube.com/vi/RxHCQsBV_zs/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 See a video short here from the Hökarängen installation: https://youtu.be/RxHCQsBV_zs
-Radio Love
+## Radio Love
 I called the mobile versions Radio Love.
 Setup 1, Radio Love - backpack version. 
 The backpack box was laser printed and had three compartments. One for a battery, one for the Raspberry Pi setup, including wiring, and one compartment for a space blanket. The top had a solar panel mounted to it. 
